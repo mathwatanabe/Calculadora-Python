@@ -1,21 +1,25 @@
-# Calculadora em Python
+# Esse projeto consiste em uma calculadora Python simples, com operações de adição, subtração, multiplicação e divisão, sem ter uma preocupação com o desempenho e simplificação do código. O objetivo desse projeto é apenas
+# desenvolver alguns conhecimentos referentes à linguagem Python na prática.
 
-# Desenvolva uma calculadora em Python com tudo que você aprendeu nos capítulos até aqui no curso. 
-# A solução será apresentada no próximo capítulo!
-import random
+# A linha de código abaixo é necessária para ter acesso ao módulo OS, que possui ferramentas para interagir com o Sistema Operacional.
 from os import system, name
-import csv
 
+# Esse bloco de código é uma função necessária para realizar uma limpeza de tela sempre que o programa é executado para assim ter uma tela com as informações da execução atual.
 def limpa_tela():
+    # Esse condicional serve para acessar um sistema operacional específico e executar a limpeza de tela. Essa cláusula if realiza uma busca se o Sistema Operacional é o Windows. O comando para essa limpeza de tela no
+    # Windows é 'cls'.
     if name == 'nt':
         _ = system('cls')
+    # Para outros Sistemas Operacionais, como Linux e MacOS, é necessária a execução de outro comando ('clear')
     else:
         _ = system('clear')
-
-print("\n******************* Calculadora em Python *******************")
-
+        
+# O primeiro passo escolhido para o desenvolvimento do código foi uma função capaz de realizar uma das quatro operações básicas.
 def operação():
+    # Foi necessário definir a variável operador como global para utilizá-la posteriormente na função "resultado()", que realiza o cálculo desejado. Se não ocorresse esta definição, o programa apresentaria uma mensagem de
+    # erro, pois a variável não estaria definida.
     global operador
+    # A sequência de bloco de código com um loop while foi colocada para evitar que o usuário do programa escolha alguma operação diferente das quatro operações definidas.
     escolha = 0
     while 1 > escolha or 4 < escolha:
         escolha = int(input('---------\nEscolha a operação, digitando o respectivo número\n[1] - Soma\n[2] - Substração\n[3] - Multiplicação\n[4] - Divisão\n---------\n'))
@@ -78,6 +82,7 @@ def resultado():
 
 if __name__ == "__main__":
     limpa_tela()
+    print("\n****************** Calculadora em Python ******************")
     m = float(input('\nInsira o primeiro número:\n'))
     n = float(input('\nInsira o segundo número:\n'))
     resultado()
