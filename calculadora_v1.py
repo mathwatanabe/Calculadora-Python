@@ -1,8 +1,3 @@
-# Calculadora em Python
-
-# Desenvolva uma calculadora em Python com tudo que você aprendeu nos capítulos até aqui no curso. 
-# A solução será apresentada no próximo capítulo!
-
 from os import system, name
 
 def limpa_tela():
