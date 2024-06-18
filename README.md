@@ -1,7 +1,7 @@
 <h1><b>Calculadora Python</b></h1>
 
 ## Objetivo
-O presente projeto tem por objetivo apresentar o desenvolvimento de uma calculadora programada com a linguagem Python para realizar as quatro operações básicas (soma, subtração, multiplicação e divisão) entre dois números determinados pelo usuário. Não estava no planejamento do trabalho realizar um trabalho pensando na simplificação e otimização do tempo de execução do código, mas sim o aprimoramento e desenvolvimento de conceitos e fundamentos vistos na prática.
+>O presente projeto tem por objetivo apresentar o desenvolvimento de uma calculadora programada com a linguagem Python para realizar as quatro operações básicas (soma, subtração, multiplicação e divisão) entre dois números determinados pelo usuário. Não estava no planejamento do trabalho realizar um trabalho pensando na simplificação e otimização do tempo de execução do código, mas sim o aprimoramento e desenvolvimento de conceitos e fundamentos vistos na prática.
 
 ## Ferramentas
 * Python 3.9.13
