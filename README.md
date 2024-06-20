@@ -4,7 +4,7 @@
 O presente projeto tem por objetivo apresentar o desenvolvimento de uma calculadora programada com a linguagem Python para realizar as quatro operações básicas (soma, subtração, multiplicação e divisão) entre dois números determinados pelo usuário. Não estava no planejamento do trabalho realizar um trabalho pensando na simplificação e otimização do tempo de execução do código, mas sim o aprimoramento e desenvolvimento de conceitos e fundamentos vistos na prática.
 
 ## Ferramentas
-* Python 3.9.13
+* Python 3.10.13
 
 ## Desenvolvimento
 Os principais mecanismos da calculadora foram as duas funções criadas dentro do código. Uma chamada de <code>operação()</code> para pedir e guardar a escolha de operação do usuário em uma variável chamada de <code>operador</code>. Tal variável foi definida como global para ser utilizada na função seguinte.
